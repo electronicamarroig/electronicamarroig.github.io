@@ -1,0 +1,173 @@
+body {
+	background-color: #ddd;
+}
+
+#page {
+	background-color: #FFF;
+}
+
+#header_image {
+	background-image: url(../resources/img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -30px;
+    height: 160px;
+}
+
+#logo {
+	width: 480px;
+	float: left;
+	margin: 5px 10px;
+}
+
+#lang {
+	float: right;
+	margin: 5px 10px;
+}
+
+#lang li {
+    margin-left: 5px;
+}
+
+
+#lang li img {
+    height: 16px;
+	opacity: 1;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#lang li img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#contingut{
+	min-height: 400px;
+}
+
+#menu {
+    border-bottom: 5px solid #333;
+    margin-bottom: 20px;
+}
+
+#menu {
+    border-bottom-color: #8D200C;
+}
+
+#menu.informacion {
+    border-bottom-color: #A74239;
+}
+
+#menu.productos {
+    border-bottom-color: #B89957;
+}
+
+#menu.contacto {
+    border-bottom-color: #C9BF56;
+}
+
+#menu ul {
+    margin-bottom: 0;
+}
+
+#menu ul li {
+    width: 24.462%;
+    text-align: center;
+    opacity: 1;
+}
+
+#menu ul li:hover {
+    opacity: 0.9;
+}
+
+#menu ul li:first-child {
+    background-color: #8D200C;
+}
+
+#menu ul li:nth-child(2) {
+    background-color: #A74239;
+}
+
+#menu ul li:nth-child(3) {
+    background-color: #B89957;
+}
+
+#menu ul li:nth-child(4) {
+    background-color: #C9BF56;
+}
+
+#menu ul li:not(:first-child) {
+    margin-left: 0;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    padding: 10px 0;
+}
+
+#footer {
+    padding: 20px 20px 30px;
+    color: #999;
+    background-color: #333;
+    text-shadow: 0 0 1px #000;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+#galleria {
+    height: 400px;
+    width: 95%;
+    margin-left: 3%;
+}
+
+img.bordered-img {
+    border: 1px solid #999;
+    padding: 2px;
+    float: right;
+}
+
+.tabs-content {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.tabs dd.active a {
+    background-color: #ddd;
+}
+
+fieldset {
+	border: none;
+    padding: 0;
+}
+
+#form ol{
+	list-style:none;
+	margin-left: 0;
+}
+
+#loading {
+	background-image: url(../resources/img/ajax-loader.gif);
+	width: 32px;
+	height: 32px;
+	float: right;
+	display: none;
+}
+
+textarea{
+	resize: none;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #272727 !important;
+}
+
+.slick-slide {
+    height: 400px !important;
+}
+
+.slick-slide img {
+    height: 80% !important;
+    width: auto;
+    margin: 0 auto;
+}
